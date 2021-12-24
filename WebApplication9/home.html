@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        * /*any thing*/ {
+            font-size: 30px;
+        }
+
+        ul {
+            list-style-type: none /*without points*/;
+            margin: 0;
+            padding: 0;
+            background: #eee;
+            width: 100%;
+            border: 1px solid #777;
+            display: inline-block /*tansek right*/;
+            position: fixed;
+            top: 0; /*if overwite buttom 0 list in down*/
+            left: 0;
+        }
+
+        body {
+            padding-top: 50px;
+        }
+
+
+         a {
+            text-decoration: none /* without underline*/;
+            padding: 15px;
+            color: #000;
+            display: block;
+        }
+
+        a {
+            border-right: 1px solid #777;
+            text-align: center;
+            float: left /*trteb ysar*/;
+        }
+
+            a:last-child {
+                border-right: none;
+                border-left: 1px solid #777;
+                float: right;
+            }
+
+             a:hover /* touch mouse*/ {
+                background: #777;
+                color: #fff;
+            }
+    </style>
+</head>
+<body>
+    <img src="home.jpg" width="900" height="350" alt="error" />
+    <a href="add_product.html">go to page add product html </a><hr />
+    <a href="add_product.aspx">go to page add product asp </a>
+</body>
+</html>
